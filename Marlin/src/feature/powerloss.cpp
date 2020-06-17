@@ -270,7 +270,6 @@ void PrintJobRecovery::save(const bool force/*=false*/) {
  * Save the recovery info the recovery file
  */
 void PrintJobRecovery::write() {
-
   debug(PSTR("Write"));
 
   open(false);
